@@ -1,6 +1,6 @@
 {
   "family": "apiserver",
-  "executionRoleArn": "arn:aws:iam::228655407122:role/github-ecs-deploy-roy",
+  "executionRoleArn": "arn:aws:iam::228655407122:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
