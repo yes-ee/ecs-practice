@@ -11,11 +11,11 @@ permissions:
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-  ECR_REPOSITORY: apiserver              # ECR에서 생성한 이름
-  ECS_CLUSTER: deploytest                # ECS 클러스터 이름
-  ECS_SERVICE: itstudyservice2           # ECS 서비스 이름
+  ECR_REPOSITORY: apiserver
+  ECS_CLUSTER: deploytest
+  ECS_SERVICE: deployservice
   ECS_TASK_DEFINITION: task-definition.json
-  CONTAINER_NAME: itstudy1               # 태스크 정의에 등록한 컨테이너 이름
+  CONTAINER_NAME: deploycontainer
 
 jobs:
   deploy:
