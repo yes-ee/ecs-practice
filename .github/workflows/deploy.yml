@@ -13,9 +13,9 @@ env:
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   ECR_REPOSITORY: apiserver
   ECS_CLUSTER: deploytest
-  ECS_SERVICE: deployservice
+  ECS_SERVICE: itstudyservice
   ECS_TASK_DEFINITION: task-definition.json
-  CONTAINER_NAME: deploycontainer
+  CONTAINER_NAME: itstudy
 
 jobs:
   deploy:

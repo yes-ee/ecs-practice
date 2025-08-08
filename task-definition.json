@@ -6,7 +6,7 @@
   "memory": "512",
   "containerDefinitions": [
     {
-      "name": "deploycontainer",
+      "name": "itstudy",
       "image": "IMAGE_URI",
       "portMappings": [
         {
